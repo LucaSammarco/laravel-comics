@@ -5,7 +5,21 @@
 @endsection
 
 @section('main-content')
-    <h1>Welcome to the Home Page</h1>
 
-    {{-- <img src="{{ Vite::asset('resources/img/gatto-soriano.jpeg')}}" alt="gatto"> --}}
+<section class="d-flex">
+
+    @foreach ($data as $item)
+
+    <div class="card">
+        <h2>{{ $item['title'] }}</h2>
+        <img src="{{ $item['thumb'] }}" alt="">
+
+    </div>
+    @endforeach
+</section>
+
+
 @endsection
+
+
+

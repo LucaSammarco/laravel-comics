@@ -7,6 +7,7 @@
     <title>@yield("page-title", "Home")</title>
     @yield("head-cdn")
     @vite('resources/js/app.js')
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 </head>
 <body>
 

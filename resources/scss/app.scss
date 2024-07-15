@@ -1,1 +1,51 @@
 @import "~bootstrap/scss/bootstrap";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+body {
+    font-family: 'Roboto' sans-serif;
+
+}
+
+li {
+    cursor: pointer;
+}
+
+// main {
+//     padding: 2rem 10rem;
+// }
+
+.logo {
+
+    padding: 1rem 10rem;
+    img {
+        width: 80px;
+    }
+}
+
+.navbar {
+    padding: 1rem 6rem;
+}
+
+li {
+list-style: none;
+margin-right: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+main img {
+    width: 150px;
+    height: 150px;
+}
