@@ -45,7 +45,35 @@ a {
 
 
 
-main img {
-    width: 150px;
-    height: 150px;
-}
+
+
+main .list-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 10rem;
+    background-color: #1c1c1c;
+
+  }
+
+
+  .cards {
+      width: calc((100% / 6));
+      text-align: center;
+      margin-bottom: 1rem;
+   }
+
+
+  .cards img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 12px;
+  }
+
+  .cards h4 {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: white;
+    text-transform: uppercase;
+  }
+

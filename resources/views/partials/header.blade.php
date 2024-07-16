@@ -6,9 +6,14 @@
 
     <section class="navbar ms-auto">
 
+
             <nav>
                 <ul class="d-flex ">
 
+
+                        <li class="fw-bold"> <a href="/products">PRODUCTS</a>
+
+                        </li>
                          <li>
                             <a href="">Characters</a>
                         </li>
@@ -46,5 +51,7 @@
             </nav>
 
     </section>
+
+
 
 </header>
